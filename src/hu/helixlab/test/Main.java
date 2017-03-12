@@ -28,5 +28,13 @@ public class Main {
         final float PI = 3.14F;
 
         System.out.println("A " + r + " sugarú gömb térfogata: " + 4 * PI * Math.pow(r, 3) / 3 + "\n");
+
+        // felveszek két double változót a celsius és a fahreinheit tárolására
+
+        double fahreinheit = 10;
+        double celsius = 5;
+
+        System.out.println(fahreinheit + " fahreinheit = " + (fahreinheit - 32) / 9 * 5 + " celsius");
+        System.out.println(celsius + " celsius = " + (celsius / 5 * 9 + 32) + " fahreinheit\n");
     }
 }
