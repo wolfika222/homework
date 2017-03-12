@@ -21,5 +21,12 @@ public class Main {
         System.out.println(dl + " dl = " + dl * 10 + " cl");
         System.out.println(dl + " dl = " + dl / 10 + " l");
         System.out.println(dl + " dl = " + dl / 1000 + " hl\n");
+
+        //felveszek egy short változó a gömb sugarára és egy konstans a PI-nek
+
+        short r = 5;
+        final float PI = 3.14F;
+
+        System.out.println("A " + r + " sugarú gömb térfogata: " + 4 * PI * Math.pow(r, 3) / 3 + "\n");
     }
 }
