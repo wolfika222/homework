@@ -43,7 +43,7 @@ public class Main {
 
 
         char c = 'B';
-        int d = a;
+        int d = c;
 
         System.out.println("A " + c + " karakter ASCII kódja: " + d);
     }
