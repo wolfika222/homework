@@ -36,5 +36,7 @@ public class Main {
 
         System.out.println(fahreinheit + " fahreinheit = " + (fahreinheit - 32) / 9 * 5 + " celsius");
         System.out.println(celsius + " celsius = " + (celsius / 5 * 9 + 32) + " fahreinheit\n");
+
+        System.out.println("**********\n*Hello\t*\n*World\t*\n*in\t\t*\n*a\t\t*\n*frame\t*\n**********\n");
     }
 }
