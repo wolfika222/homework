@@ -21,6 +21,5 @@ public class Main {
         System.out.println(dl + " dl = " + dl * 10 + " cl");
         System.out.println(dl + " dl = " + dl / 10 + " l");
         System.out.println(dl + " dl = " + dl / 1000 + " hl\n");
-
     }
 }
